@@ -4,9 +4,9 @@ if not status then
 	return
 end
 
--- get lualine nightfly theme
+-- get lualine themes
 local lualine_nightfly = require("lualine.themes.nightfly")
-
+local lualine_gruvbox = require("lualine.themes.gruvbox-material")
 -- new colors for theme
 local new_colors = {
 	blue = "#65D1FF",
@@ -31,6 +31,6 @@ lualine_nightfly.command = {
 -- configure lualine with modified theme
 lualine.setup({
 	options = {
-		theme = lualine_nightfly,
+		theme = lualine_gruvbox,
 	},
 })

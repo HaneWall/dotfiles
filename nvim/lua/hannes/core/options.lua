@@ -32,7 +32,7 @@ opt.backspace = "indent,eol,start"
 opt.clipboard:append("unnamedplus")
 
 -- split windows
-opt.splitright = true 
+opt.splitright = true
 opt.splitbelow = true
 
 opt.iskeyword:append("-")
